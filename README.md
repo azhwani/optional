@@ -6,5 +6,5 @@ The optional class belongs to java.util package and it may or may not hold null 
 # Optional benefits:
 - Null checks are not required
 - No more NullPointerException
-- Create a clean and neat code
+- Create clean and neat code
 - Avoid boiler plate code
