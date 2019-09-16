@@ -11,8 +11,10 @@ public class AdvancedOptional {
         Integer value1 = null;
         Optional<Integer> op3 = Optional.ofNullable(value1);
 
-        //get
-
+        //get : as the name implies, it gets the Optional value if it is not empty 
+        System.out.println("Optional value: " + op1.get());
+        System.out.println("Empty Optional: " + op2.get());
+        System.out.println("Optional value: " + op3.get());
         //isPresent
         
         //ifPresent
